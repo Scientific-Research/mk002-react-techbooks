@@ -1,0 +1,21 @@
+- project
+	- goal:
+		- create React site that shows tech books
+		- like this: https://edwardtanguay.vercel.app/techBooks
+	- how to do it:
+		- x create base react site
+			- create-react-app (slower)
+			- x Vite (we'll use this)
+				- npm create vite
+			- x install git
+				- git init -b main
+		- x minimize the site
+			- x take out extra css file
+			- x install sass
+				- npm i sass
+		- x download JSON file of tech books: https://edwardtanguay.vercel.app/share/techBooks.json
+			- x save as .json file in site
+- x App.jsx: display all tech books
+	- x display titles
+- .. put each book in its own component: Book.jsx
+	- use props
